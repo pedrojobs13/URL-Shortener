@@ -1,0 +1,23 @@
+:root {
+  --blue: #0098f2;
+  --bg-color: #101f24;
+  --white: #efebeb;
+  --black: #0b161a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+input,
+a,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--white);
+}

@@ -1,0 +1,51 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 100vh;
+}
+.Container label {
+  box-sizing: initial;
+  font-size: 2rem;
+  line-height: 1.25;
+  background-color: var(--blue);
+  color: var(--black);
+  padding: 2.5rem 10rem;
+  margin: 3rem 2rem;
+  max-width: 280px;
+  outline: 2px solid var(--white);
+  text-align: center;
+}
+.Container input {
+  width: 30rem;
+  height: 2rem;
+}
+.Container button {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  background-color: var(--blue);
+  color: var(--black);
+  outline: 1.9px solid var(--white);
+  transition: background-color 0.5s, color 0.2s, filter 0.2s;
+}
+.Container button:hover {
+  background-color: var(--bg-color);
+  color: var(--white);
+}
+.Container button:active{
+  filter: brightness(1.8);
+}
+
+.link_pronto {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 3rem;
+  color: var(--black);
+  font-weight: 700;
+  border-radius: 10px;
+  filter: brightness(1.02);
+}
